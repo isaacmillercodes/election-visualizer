@@ -1,4 +1,4 @@
-var config = {};
+const config = {};
 
 // twitter keys
 config.consumer_key = 'changeme';
