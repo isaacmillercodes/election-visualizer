@@ -8,22 +8,14 @@
       <img class='img' src='../img/trump.png'>
     </div>
     <div class='col-md-4 col-lg-8'>
-      <span class='name'>#Trump</span>
-      <canvas id="trump" class="chart chart-doughnut"
+      <span class='name'>Live Voter Tweets</span>
+      {{voterData}}
+      <canvas id="voterTweets" class="chart chart-doughnut"
       chart-colours='colors' chart-legend="true"
-      chart-data="trumpData" chart-labels="labels">
+      chart-data="voters" chart-labels="labels">
     </canvas>
   </div>
-  <div class='col-md-2 col-lg-4'>
-    <img class='img' src='../img/hillary.png'>
-  </div>
-  <div class='col-md-4 col-lg-8'>
-    <span class='name'>#StrongerTogether</span>
-    <canvas id="clinton" class="chart chart-doughnut"
-    chart-colours='colors' chart-legend="true"
-    chart-data="clintonData" chart-labels="labels">
-  </canvas>
-</div>
+
 </div>
 <br><br>
 <div class='row'>

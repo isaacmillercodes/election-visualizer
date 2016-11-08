@@ -19,7 +19,7 @@ const client = new Twitter({
   access_token_secret: config.access_token_secret
 });
 
-const hashtags = '#Trump, #StrongerTogether';
+const hashtags = '#VoteTrump, #ImWithHer, #JohnsonWeld, #ItsInOurHands';
 
 client.stream('statuses/filter', {track: hashtags}, (stream) => {
   stream.on('data', (tweet) => {
